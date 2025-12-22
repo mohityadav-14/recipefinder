@@ -8,7 +8,7 @@ const RecipeList = ({ recipes }) => {
     <div className="recipe-grid">
       {recipes.map((recipe) => (
         <RecipeCard
-          key={recipe.idMeal}
+          key={recipe.idMeal} // passing the id into key 
           title={recipe.strMeal}
           image={recipe.strMealThumb}
         />
