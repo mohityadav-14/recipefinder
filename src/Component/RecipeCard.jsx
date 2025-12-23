@@ -8,11 +8,7 @@ const RecipeCard = ({ title, image,id }) => {
       <h3>{title}</h3>
       <Link to={`/recipe/${id}`}>
 
-      <button className="view-btn"
-        onClick={() => {
-          alert(`Showing  the full recipe for ${title} `);
-        }}
-      >
+      <button className="view-btn">
         {" "}
         View Recipes{" "}
       </button>

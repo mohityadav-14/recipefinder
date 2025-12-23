@@ -4,20 +4,23 @@ const SearchBar = ({ getRecipes,error }) => {
    const [searchQuery,setSearchQuery]=useState("") //User input for search
   
 
+  
   return (
-    <>
-      <input
-        type="text"
-        value={searchQuery}
-        placeholder="Enter Fruits or vegetable "
-        onChange={(e) => {
-          setSearchQuery(e.target.value);
-       
-        }}  />
-
-        {error && <p style={{color:"red"}}>{error }</p>}
-        <button  onClick={()=>{getRecipes(searchQuery)}}>Search</button>
-    </>
+    <div className="search-section">
+      <div className="search-bar-container">
+        <input
+          type="text"
+          value={searchQuery}
+          placeholder="Enter Fruits or vegetable"
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        <button onClick={() => getRecipes(searchQuery)}>
+          Search
+        </button>
+      </div>
+      {error && <p style={{ color: "red", marginTop: "10px" }}>{error}</p>}
+    </div>
+  
   );
 };
 
