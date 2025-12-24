@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary: #ff6347;
   --dark: #2d3436;
   --light: #f9f9f9;
@@ -286,4 +286,4 @@ button {
 button:hover {
   background-color: #e5533d;
   border-color: #e5533d;
-}
+} 
