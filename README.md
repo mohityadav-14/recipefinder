@@ -81,8 +81,7 @@ npm run dev
 
 ## 📞 Contact
 
-**Name:** Mohit Yadav 
- 
+**Name:** Mohit Yadav \
 **LinkedIn:** [[ LinkedIn Profile](https://www.linkedin.com/in/mohit-yadav-09282436b/)]  
 
 
